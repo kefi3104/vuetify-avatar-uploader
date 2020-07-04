@@ -34,6 +34,7 @@
 
       <input
         type="file"
+        accept="image/*"
         ref="file"
         name="file"
         @change="select($event.target.name, $event.target.files)"
